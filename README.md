@@ -1,11 +1,11 @@
 # ssg
 
-## Introduction
+### Introduction
 
 This is a minimal static site generator written in Go. I am not proficient in Go. 
 This SSG is partly an exercise to help me learn a new language, so I make no guarantees re: code quality.
 
-## Structure
+### Structure
 
 There are two types of pages supported here: "blog" pages and "regular" pages. 
 
@@ -17,7 +17,7 @@ There are two types of pages supported here: "blog" pages and "regular" pages.
 
   ``public/blog/`` contains the finished blog posts.
 
-## To Build
+### Usage
 
 From the index directory, run:
 
@@ -25,7 +25,9 @@ From the index directory, run:
 $ go run build.go
 ```
 
-## License
+This creates new pages in ``public/`` by combining the raw pages in ``src/`` with the templates from ``static/``. That's all there is!
+
+### License
 
 This project is licensed under the Apache License, Version 2.0.
 
