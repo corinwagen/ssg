@@ -17,8 +17,6 @@ There are two types of pages supported here: "blog" pages and "regular" pages.
 
   ``public/blog/`` contains the finished blog posts.
 
-  ``public/img/`` contains embedded images.
-
 ## To Build
 
 From the index directory, run:
