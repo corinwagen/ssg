@@ -15,8 +15,6 @@ There are two types of pages supported here: "blog" pages and "regular" pages.
 
 ``public/`` contains the finished pages.
 
-  ``public/blog/`` contains the finished blog posts.
-
 ### Usage
 
 From the index directory, run:
