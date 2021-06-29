@@ -17,7 +17,8 @@ There are two types of pages supported here: "blog" pages and "regular" pages.
 
 ### Usage
 
-From the index directory, run:
+To adapt this project for your own use, simply update the templates in ``static/`` as desired, and add new content to ``src/.``
+Then, from the index directory, run:
 
 ```
 $ go run build.go
